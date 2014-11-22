@@ -15,9 +15,14 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
-default: &default
+default: &development
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+
+
+  adapter: postgresql
+  encoding: unicode
   pool: 5
