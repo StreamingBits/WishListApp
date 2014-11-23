@@ -1,4 +1,3 @@
-
 # PostgreSQL. Versions 8.2 and up are supported.
 #
 # Install the pg driver:
@@ -15,14 +14,9 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
-default: &development
+default: &default
   adapter: postgresql
   encoding: unicode
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: 5
-
-
-  adapter: postgresql
-  encoding: unicode
   pool: 5
